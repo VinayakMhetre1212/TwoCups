@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background:url(pimg/wall.jpg);
+    background-size: cover;
+    
+    height: 80vh;
+    width: 100%;
+
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 30px 80px;
+    
+    
+}
+
+.nav-bar .title{
+    color: black;
+    align-items: center;
+    margin-top: 205px;
+    margin-left: 415px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Papyrus;
+}
+
+span{
+    font-size: 19px;
+    font-weight: 900;
+}
+
+
+p{
+    position: absolute;
+    margin-top: 295px;
+    margin-left: 450px;
+    color: rgb(8, 8, 8);
+    font-family:Papyrus;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    background-color:#4e3422;
+    font-family: Papyrus ;
+
+}
+
+.product .expreso-coffee, .cappuccino-coffee, .latte-coffee{
+    width: 250px;
+    margin-top: 20px;
+    transition:.3s ease; 
+    
+    
+
+}
+
+.product .expreso-coffee, .cappuccino-coffee, .latte-coffe{
+    color: crimson;
+    padding: 5px 15px;
+    
+}
+
+.product .caffe-mocha-coffee, .cold-coffee, .hot-coffee{
+    width: 250px;
+    
+}
+
+.hot-coffee{
+    width: 260px;
+}
+
+/*photo radius*/
+
+.product .expreso-coffee .expreso-img  img {
+    border-radius: 50%;
+
+}
+
+.product .cappuccino-coffee .cappuccino-img img {
+    border-radius: 50%;
+
+}
+
+.product .latte-coffee .latte-img  img {
+    border-radius: 50%;
+
+}
+
+.product .caffe-mocha-coffee .caffe-mocha-img  img {
+    border-radius: 50%;
+
+}
+
+.product .hot-coffee .hot-img  img {
+    border-radius: 50%;
+
+}
+
+.product .cold-coffee .cold-img  img {
+    border-radius: 50%;
+    margin-top: 30px;
+
+}
+
+
+/*photo chya text sati*/
+
+/*.product .expreso-body .cappuccino-body .latte-body
+.caffe-mocha-body .hot-body .cold-body .h2{
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}*/
+
+.product .expreso-body{
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+}
+
+
+.product .cappuccino-body{
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+}
+
+.product .latte-body{
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+}
+
+.product .caffe-mocha-body{
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+}
+
+.product .hot-body{
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+}
+
+.product .cold-body{
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+}
+
+h2{
+    color: rgb(190, 148, 57);
+
+}
+
+h2:hover{
+    color: white;
+    transition: 0.5s ease;
+}
+
+
+
